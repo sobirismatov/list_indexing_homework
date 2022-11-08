@@ -6,4 +6,14 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    
+    mx=list_num[0]
+    
+    if mx<list_num[-1]:
+        mx=list_num[-1]
+        
+        
+    
+    return mx
+
+print(main([2,3,5,4]))
