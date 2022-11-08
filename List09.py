@@ -7,12 +7,10 @@ def main(list1):
         bool: return answer
     """
     i=1
-    k=0
     while i<len(list1):
-        if list1[i-1]==list1[i]:
-            k=True
+        if list1[0]==list1[i]:
+            return True 
         else :
-            k=False
+            return False
         i+=1
-    return k
-print(main([1,1,1,1]))
+print(main([1,2,1,1]))
